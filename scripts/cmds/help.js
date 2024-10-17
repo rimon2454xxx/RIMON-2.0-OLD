@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═════▓࿇࿇▓═════╗\n             𝐀𝐋𝐋 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓 𝗜𝗡 𝗠𝗔𝗛𝗜'𝗦 𝔅𝔞𝔫𝔨𝔞𝔦 𝔟𝔬𝔱 𝗕𝗢𝗧\n╚═════▓࿇࿇▓═════╝\n\n`; // replace with your name 
+      msg += `╔═════▓࿇࿇▓═════╗\n             𝐀𝐋𝐋 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓 𝗜𝗡 𝗥𝗜𝗠𝗢𝗡 𝔅𝔞𝔫𝔨𝔞𝔦 𝔟𝔬𝔱 𝗕𝗢𝗧\n╚═════▓࿇࿇▓═════╝\n\n`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -62,7 +62,7 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\n𝗧𝗢𝗧𝗔𝗟 𝙲𝚖𝚍 ${totalCommands}\n𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚝𝚑𝚊t 𝚞 𝚌𝚊𝚗 𝚞𝚜𝚎 in lord aizens bankai bot -`;
       msg += `𝚝𝚢𝚙𝚎: 「${prefix} 𝗵𝗲𝗹𝗽」+「 𝐇𝐄𝐋𝐏 𝐂𝐌𝐃」𝚝𝚘 𝚟𝚒𝚎𝚠 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜\n`;
-      msg += `👑 | 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐋𝐎𝐑𝐃 𝐀𝐈𝐙𝐄𝐍 𝐉𝐑'𝐒 𝐁𝐎𝐓 𝐖𝐄'𝐋𝐋 𝐂𝐎𝐌𝐄 𝐖𝐈𝐓𝐇 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄 𝐄𝐕𝐄𝐑𝐘 𝐖𝐄𝐄𝐊`; // its not decoy so change it if you want 
+      msg += `👑 | 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 𝐋𝐎𝐑𝐃 𝗠𝗥 𝗥𝗜𝗠𝗢𝗡 𝐁𝐎𝐓 𝐖𝐄'𝐋𝐋 𝐂𝐎𝐌𝐄 𝐖𝐈𝐓𝐇 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄 𝐄𝐕𝐄𝐑𝐘 𝐖𝐄𝐄𝐊`; // its not decoy so change it if you want 
 
       const helpListImages = [
         "https://i.imgur.com/Jhdzcfl.gif", // don't change imgur
@@ -95,7 +95,7 @@ module.exports = {
         const guideBody = configCommand.guide?.en || "No guide available.";
         const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
 
-        const response = `╭── 𝐍𝐀𝐌𝐄 𝐎𝐖𝐍𝐄𝐑 - 𝐋𝐎𝐑𝐃 𝐀𝐈𝐙𝐄𝐍 𝐉𝐑 (𝐌𝐀𝐇𝐈) ────⭓
+        const response = `╭── 𝐍𝐀𝐌𝐄 𝐎𝐖𝐍𝐄𝐑 - 𝗠𝗥 𝗡𝗢𝗕𝗜𝗧𝗔 𝗩𝗔𝗜 (𝕽𝖎𝖒𝖔𝖓) ────⭓
   │ ${configCommand.name}
   ├── INFO
   │ Description: ${longDescription}
@@ -108,8 +108,8 @@ module.exports = {
   ├── Usage
   │ ${usage}
   ├── Notes
-  │ THIS BOT HAS BEEN MADE BY LORD AIZEN JR (MAHI) WITH THE HELP OF ANONYMOUS SANAM
-  │ FOR ANY HELP YOU CAN CONTRACT WITH OWNER AIZEN JR 👑 -https://www.facebook.com/100072881080249
+  │ THIS BOT HAS BEEN MADE BY MR NOBITA VAI (RIMON) WITH THE HELP OF ANONYMOUS SANAM
+  │ FOR ANY HELP YOU CAN CONTRACT WITH OWNER MR RIMON 👑 -https://www.facebook.com/profile.php?id=61552209843370
   ╰━━━━━━━❖`;
 
         await message.reply(response);
