@@ -23,8 +23,8 @@
     "whiteListIds": ["100081894480123","100072881080249"],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": " リモンボット ",
-  "prefix": "/",
+  "nickNameBot": "𝘼𝙣𝙘𝙝𝙚𝙨𝙩𝙤𝙧 𝘼𝙞 [Rimon]",
+  "prefix": "-",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
