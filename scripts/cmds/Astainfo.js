@@ -38,7 +38,7 @@ module.exports = {
     const days = Math.floor(uptime / (60 * 60 * 24));
     const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
-    const additionalText = "𝙏𝙃𝙄𝙎 𝘽𝙊𝙏 𝙒𝘼𝙎 𝙈𝘼𝘿𝙀 𝘽𝙔 𝙈𝘼𝙃𝙄 𝘼𝙉𝘿 𝙎𝘼𝙉𝘼𝙈";
+    const additionalText = "𝙏𝙃𝙄𝙎 𝘽𝙊𝙏 𝙒𝘼𝙎 𝙈𝘼𝘿𝙀 𝘽𝙔 𝗠𝗥 𝗥𝗜𝗠𝗢𝗡 𝗩𝗔𝗜";
 
     // Combine the bot information and additional text in a single message
     message.reply(`======[ℹ𝗕𝗼𝘁 𝗶𝗻𝗳𝗼:]======
